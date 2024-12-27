@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reza</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Reza</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2024, Reza</copyright>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;&#xD;&#xA;&lt;p&gt;Hello! I&amp;rsquo;m Reza, a Data Scientist with a passion for uncovering meaningful stories hidden within complex datasets.&lt;/p&gt;&#xA;&lt;div style=&#34;display: flex; justify-content: center; align-items: center; margin: 2em 0;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/images/about/about.jpg&#34; alt=&#34;Reza&#34; style=&#34;max-width: 300px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;what-i-do&#34;&gt;What I Do&lt;/h2&gt;&#xA;&lt;p&gt;I specialize in transforming raw data into actionable insights that drive business decisions. My expertise lies in:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developing predictive models that help businesses anticipate market trends and customer behavior&lt;/li&gt;&#xA;&lt;li&gt;Creating intuitive data visualizations that make complex information accessible to all stakeholders&lt;/li&gt;&#xA;&lt;li&gt;Implementing machine learning solutions to solve real-world business challenges&lt;/li&gt;&#xA;&lt;li&gt;Building interactive dashboards that enable data-driven decision making&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-approach&#34;&gt;My Approach&lt;/h2&gt;&#xA;&lt;p&gt;I believe that data science is more than just numbers and algorithms – it&amp;rsquo;s about finding and communicating the compelling narratives within the data. Every dataset tells a story, and I&amp;rsquo;m dedicated to:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact Me</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;form action=&#34;https://formspree.io/f/xvgojpag&#34; method=&#34;POST&#34; class=&#34;contact-form&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;name&#34;&gt;Name:&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;text&#34; name=&#34;name&#34; id=&#34;name&#34; required&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;email&#34;&gt;Email:&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;email&#34; name=&#34;email&#34; id=&#34;email&#34; required&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;subject&#34;&gt;Subject:&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;text&#34; name=&#34;subject&#34; id=&#34;subject&#34; required&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;message&#34;&gt;Message:&lt;/label&gt;&#xD;&#xA;    &lt;textarea name=&#34;message&#34; id=&#34;message&#34; rows=&#34;5&#34; required&gt;&lt;/textarea&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;button type=&#34;submit&#34;&gt;Send Message&lt;/button&gt;&#xD;&#xA;&lt;/form&gt;&#xD;&#xA;&lt;style&gt;&#xD;&#xA;.contact-form {&#xD;&#xA;  max-width: 600px;&#xD;&#xA;  margin: 0 auto;&#xD;&#xA;  padding: 20px;&#xD;&#xA;}&#xD;&#xA;.form-group {&#xD;&#xA;  margin-bottom: 20px;&#xD;&#xA;}&#xD;&#xA;label {&#xD;&#xA;  display: block;&#xD;&#xA;  margin-bottom: 5px;&#xD;&#xA;  font-weight: bold;&#xD;&#xA;}&#xD;&#xA;input[type=&#34;text&#34;],&#xD;&#xA;input[type=&#34;email&#34;],&#xD;&#xA;textarea {&#xD;&#xA;  width: 100%;&#xD;&#xA;  padding: 8px;&#xD;&#xA;  border: 1px solid #ddd;&#xD;&#xA;  border-radius: 4px;&#xD;&#xA;  font-size: 16px;&#xD;&#xA;}&#xD;&#xA;textarea {&#xD;&#xA;  resize: vertical;&#xD;&#xA;}&#xD;&#xA;button {&#xD;&#xA;  background-color: #007bff;&#xD;&#xA;  color: white;&#xD;&#xA;  padding: 10px 20px;&#xD;&#xA;  border: none;&#xD;&#xA;  border-radius: 4px;&#xD;&#xA;  cursor: pointer;&#xD;&#xA;  font-size: 16px;&#xD;&#xA;}&#xD;&#xA;button:hover {&#xD;&#xA;  background-color: #0056b3;&#xD;&#xA;}&#xD;&#xA;&lt;/style&gt;</description>
+    </item>
+    <item>
+      <title>Predicting Industrial Machine Downtime</title>
+      <link>http://localhost:1313/portfolio/predicting_industrial_machine_downtime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/predicting_industrial_machine_downtime/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rezo0o.notion.site/Predicting-Industrial-Machine-Downtime-165ef65955e88155b816e08dfdb05faf&#34;&gt;View Full Project Details on Notion&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;predicting-industrial-machine-downtime&#34;&gt;Predicting Industrial Machine Downtime&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/portfolio/Predicting-Industrial-Machine-Downtime/dashboard.jpg&#34; alt=&#34;Maintenance Dashboard&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;An end-to-end machine learning solution that predicts equipment failures in manufacturing environments with 99% accuracy. The system analyzes real-time sensor data to prevent costly breakdowns and optimize maintenance schedules.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Real-time equipment monitoring dashboard&lt;/li&gt;&#xA;&lt;li&gt;Predictive models using Multiple ML algorithms&lt;/li&gt;&#xA;&lt;li&gt;Interactive data visualization&lt;/li&gt;&#xA;&lt;li&gt;Early warning system for potential failures&lt;/li&gt;&#xA;&lt;li&gt;Maintenance schedule optimization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-stack&#34;&gt;Technical Stack&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; Python&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; Streamlit&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ML Models:&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Logistic Regression&lt;/li&gt;&#xA;&lt;li&gt;Random Forest&lt;/li&gt;&#xA;&lt;li&gt;Gradient Boosting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Processing:&lt;/strong&gt; Pandas, NumPy&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visualization:&lt;/strong&gt; Plotly, Matplotlib&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://machinedowntimeapp-adtcbtmrethr5hkvejjc4v.streamlit.app/&#34;&gt;View Project Demo&lt;/a&gt; | &lt;a href=&#34;https://github.com/rezo0o/machine_downtime_app&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SuperStore Dashboard</title>
+      <link>http://localhost:1313/portfolio/superstore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/superstore/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

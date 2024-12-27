@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Reza</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Reza</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2024, Reza</copyright>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Predicting Industrial Machine Downtime</title>
+      <link>http://localhost:1313/portfolio/predicting_industrial_machine_downtime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/predicting_industrial_machine_downtime/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rezo0o.notion.site/Predicting-Industrial-Machine-Downtime-165ef65955e88155b816e08dfdb05faf&#34;&gt;View Full Project Details on Notion&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;predicting-industrial-machine-downtime&#34;&gt;Predicting Industrial Machine Downtime&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/portfolio/Predicting-Industrial-Machine-Downtime/dashboard.jpg&#34; alt=&#34;Maintenance Dashboard&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;An end-to-end machine learning solution that predicts equipment failures in manufacturing environments with 99% accuracy. The system analyzes real-time sensor data to prevent costly breakdowns and optimize maintenance schedules.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Real-time equipment monitoring dashboard&lt;/li&gt;&#xA;&lt;li&gt;Predictive models using Multiple ML algorithms&lt;/li&gt;&#xA;&lt;li&gt;Interactive data visualization&lt;/li&gt;&#xA;&lt;li&gt;Early warning system for potential failures&lt;/li&gt;&#xA;&lt;li&gt;Maintenance schedule optimization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-stack&#34;&gt;Technical Stack&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend:&lt;/strong&gt; Python&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend:&lt;/strong&gt; Streamlit&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ML Models:&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Logistic Regression&lt;/li&gt;&#xA;&lt;li&gt;Random Forest&lt;/li&gt;&#xA;&lt;li&gt;Gradient Boosting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Processing:&lt;/strong&gt; Pandas, NumPy&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visualization:&lt;/strong&gt; Plotly, Matplotlib&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://machinedowntimeapp-adtcbtmrethr5hkvejjc4v.streamlit.app/&#34;&gt;View Project Demo&lt;/a&gt; | &lt;a href=&#34;https://github.com/rezo0o/machine_downtime_app&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SuperStore Dashboard</title>
+      <link>http://localhost:1313/portfolio/superstore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/superstore/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
