@@ -9,7 +9,6 @@ tags: ["Machine Learning", "Python", "Streamlit", "Data Analysis"]
 
 
 # Predicting Industrial Machine Downtime
-cat 
 ![Maintenance Dashboard](/images/portfolio/Predicting-Industrial-Machine-Downtime/dashboard.jpg)
 
 ## Project Overview
