@@ -8,8 +8,7 @@ tags: ["Machine Learning", "Python", "Streamlit", "Data Analysis"]
 [View Full Project Details on Notion](https://rezo0o.notion.site/Predicting-Industrial-Machine-Downtime-165ef65955e88155b816e08dfdb05faf)
 
 
-# Predicting Industrial Machine Downtime
-![Maintenance Dashboard](/images/portfolio/Predicting-Industrial-Machine-Downtime/dashboard.jpg)
+
 
 ## Project Overview
 
