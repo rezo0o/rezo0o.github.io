@@ -9,7 +9,9 @@ tags: ["Recommendation System", "Python", "Streamlit", "Machine Learning"]
 
 
 # Book Recommendation System
-![Recommendation Dashboard](/images/portfolio/Book-Recommendation-system/dashboard.jpg)
+![Recommendation Dashboard](/images/portfolio/Book-Recommendation-System/dashboard.jpg)
+
+
 
 
 ## Project Overview
