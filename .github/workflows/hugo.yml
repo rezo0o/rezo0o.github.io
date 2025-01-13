@@ -20,21 +20,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: false  # Disable submodule fetching
           fetch-depth: 0
 
       - name: Sync Theme
         run: |
-          git submodule sync
-          git submodule update --init --force --recursive
-          cd themes/paper
-          git checkout master
-          cd ../..
-          
+          rm -rf themes/paper  # Remove the existing theme directory
+          git clone --branch main https://github.com/nanxiaobei/hugo-paper.git themes/paper  # Clone the latest version of the theme
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-          
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
