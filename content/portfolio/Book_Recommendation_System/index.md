@@ -8,9 +8,7 @@ tags: ["Recommendation System", "Python", "Streamlit", "Machine Learning"]
 [View Full Project Details on Notion](https://rezo0o.notion.site/Book-Recommendation-System-179ef65955e88024864cdbc93f8d53ee)
 
 
-# Book Recommendation System
 ![Recommendation Dashboard](/images/portfolio/Book-Recommendation-System/dashboard.jpg)
-
 
 
 
