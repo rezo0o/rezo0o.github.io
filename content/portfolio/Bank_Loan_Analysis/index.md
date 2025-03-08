@@ -5,7 +5,8 @@ tags: ["SQL", "Tableau", "Data Analysis"]
 ---
 
 
-[View Full Project Details on Notion](https://rezo0o.notion.site/Bank-Loan-Report-17fef65955e880eeb3d3c99467222662)
+[View Full Project Details on Notion](https://rezo0o.notion.site/Bank-Loan-Report-18eef65955e88056b4b2c42d3e66c42f)
+
 
 
 ![Bank Loan Dashboard](/images/portfolio/Bank-Loan-Analysis/dashboard.jpg)
