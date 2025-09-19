@@ -14,22 +14,22 @@
 <div class="relative">
   {{ $avatar_url := $.Scratch.Get "avatar_url" }}
   {{ if or $avatar_url site.Params.name }}
-  <div class="mb-6 flex items-center">
+  <div class="mb-6 flex items-center gap-5">
     {{ if $avatar_url }}
-    <div class="ltr:-ml-1 rtl:-mr-1 ltr:mr-5 rtl:ml-5 h-24 w-24 shrink-0">
+    <div class="flex-shrink-0">
       <img 
-        class="my-0 h-full w-full rounded-full avatar-spin" 
+        class="h-24 w-24 rounded-full avatar-spin object-cover" 
         src="{{ $avatar_url }}" 
         alt="{{ site.Params.name | default site.Title }}" 
       />
     </div>
     {{ end }}
     {{ if site.Params.name }}
-    <div>
+    <div class="flex-1">
       <div class="hero-title">{{ site.Params.name }}</div>
-      <div class="hero-subtitle">ML Engineer | Data Scientist</div>
+      <div class="hero-subtitle">{{ site.Params.bio | default "ML Engineer | Data Scientist" }}</div>
       <div class="hero-bio max-w-2xl">
-        ML Engineer and Data Scientist who loves turning messy data into smart solutions.
+        {{ site.Params.description | default "ML Engineer and Data Scientist who loves turning messy data into smart solutions." }}
       </div>
     </div>
     {{ end }}
