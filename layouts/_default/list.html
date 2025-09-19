@@ -27,11 +27,43 @@
     {{ if site.Params.name }}
     <div>
       <div class="hero-title">{{ site.Params.name }}</div>
-      <div class="hero-subtitle">ML Engineer | Data Scientist</div>
+      <div class="hero-subtitle">{{ site.Params.bio | default "ML Engineer | Data Scientist" }}</div>
       <div class="hero-bio max-w-2xl">
-        ML Engineer and Data Scientist who loves turning messy data into smart solutions.
+        {{ site.Params.description | default "ML Engineer and Data Scientist who loves turning messy data into smart solutions." }}
       </div>
     </div>
     {{ end }}
   </div>
   {{ end }}
+
+  <!-- Projects Section Header -->
+  <h2 class="section-heading projects-title">Projects</h2>
+</div>
+{{ end }}
+
+<!-- Project List -->
+<div class="projects-container">
+  {{ range $paginator.Pages }}
+  <article class="project-card">
+    <a href="{{ .Permalink }}" class="project-card-link">
+      <h3 class="project-title">{{ .Title }}</h3>
+      
+      {{ with .Params.description }}
+      <p class="project-description">{{ . }}</p>
+      {{ end }}
+    </a>
+    
+    {{ with .Params.tags }}
+    <div class="project-tags flex flex-wrap gap-2">
+      {{ range . }}
+      <a href="{{ `/tags/` | relLangURL }}{{ . | urlize }}" class="project-tag">
+        {{ . }}
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </article>
+  {{ end }}
+</div>
+
+{{ end }}

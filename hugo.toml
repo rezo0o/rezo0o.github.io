@@ -15,15 +15,13 @@ theme = "paper"
   color = 'linen'
   
   # Your social media links
-  # Remove or comment out any unused ones
   github = 'Rezo0o'
   
-  
   # Profile configuration
-  customCSS = ['css/custom.css'] 
   avatar = '/images/profile.jpg' 
   name = 'Reza'
   bio = 'ML Engineer | Data Scientist'
+  description = 'ML Engineer and Data Scientist who loves turning messy data into smart solutions.'
 
 # Main menu configuration
 [menu]
