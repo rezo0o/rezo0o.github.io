@@ -21,7 +21,7 @@ theme = "paper"
   avatar = '/images/profile.jpg' 
   name = 'Reza'
   bio = 'ML Engineer | Data Scientist'
-  description = 'ML Engineer and Data Scientist who loves turning messy data into smart solutions.'
+  description = 'ML Engineer and Data Scientist who loves turning data into solutions.'
 
 # Main menu configuration
 [menu]
