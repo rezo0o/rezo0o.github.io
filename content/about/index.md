@@ -5,7 +5,7 @@ draft: false
 
 <div style="text-align: justify;">
 
-Hello! I'm Reza, a Data Scientist with a passion for uncovering meaningful stories hidden within complex datasets.
+Hello! I'm Reza, an ML Engineer with a passion for uncovering meaningful stories hidden within complex datasets.
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 2em 0;">
     <img src="/images/about/about.jpg" alt="Reza" style="max-width: 300px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
