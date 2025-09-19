@@ -1,36 +1,25 @@
-{{ define "main" }}
-
-<!-- $pages -->
-{{ $pages := union .RegularPages .Sections }}
-{{ if .IsHome }}
-{{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{ end }}
-
-<!-- Paginator -->
-{{ $paginator := .Paginate $pages }}
-
 <!-- Hero Section -->
 {{ if .IsHome }}
 <div class="relative">
   {{ $avatar_url := $.Scratch.Get "avatar_url" }}
   {{ if or $avatar_url site.Params.name }}
-  <div class="mb-8 flex items-start gap-6">
+  <div class="mb-6 flex items-center space-x-4">
     {{ if $avatar_url }}
-    <div class="hero-avatar-container">
+    <div class="w-20 h-20 flex-shrink-0">
       <img 
         src="{{ $avatar_url }}" 
         alt="{{ site.Params.name | default site.Title }}"
-        class="avatar-spin"
+        class="w-20 h-20 rounded-full object-cover border-2 border-gray-200"
       />
     </div>
     {{ end }}
     {{ if site.Params.name }}
-    <div class="flex-1 pt-2">
-      <div class="hero-title">{{ site.Params.name }}</div>
-      <div class="hero-subtitle">{{ site.Params.bio | default "ML Engineer | Data Scientist" }}</div>
-      <div class="hero-bio max-w-2xl">
+    <div class="flex-1">
+      <h1 class="text-3xl font-bold text-gray-900 dark:text-white mb-1">{{ site.Params.name }}</h1>
+      <p class="text-lg text-gray-600 dark:text-gray-300 mb-2">{{ site.Params.bio | default "ML Engineer | Data Scientist" }}</p>
+      <p class="text-base text-gray-500 dark:text-gray-400 max-w-lg">
         {{ site.Params.description | default "ML Engineer and Data Scientist who loves turning messy data into smart solutions." }}
-      </div>
+      </p>
     </div>
     {{ end }}
   </div>
@@ -39,31 +28,4 @@
   <!-- Projects Section Header -->
   <h2 class="section-heading projects-title">Projects</h2>
 </div>
-{{ end }}
-
-<!-- Project List -->
-<div class="projects-container">
-  {{ range $paginator.Pages }}
-  <article class="project-card">
-    <a href="{{ .Permalink }}" class="project-card-link">
-      <h3 class="project-title">{{ .Title }}</h3>
-      
-      {{ with .Params.description }}
-      <p class="project-description">{{ . }}</p>
-      {{ end }}
-    </a>
-    
-    {{ with .Params.tags }}
-    <div class="project-tags flex flex-wrap gap-2">
-      {{ range . }}
-      <a href="{{ `/tags/` | relLangURL }}{{ . | urlize }}" class="project-tag">
-        {{ . }}
-      </a>
-      {{ end }}
-    </div>
-    {{ end }}
-  </article>
-  {{ end }}
-</div>
-
 {{ end }}
