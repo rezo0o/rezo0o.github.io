@@ -15,7 +15,6 @@
   {{ $avatar_url := $.Scratch.Get "avatar_url" }}
   {{ if or $avatar_url site.Params.name }}
   <div class="mb-6 flex items-center">
-
     {{ if $avatar_url }}
     <div class="ltr:-ml-1 rtl:-mr-1 ltr:mr-5 rtl:ml-5 h-24 w-24 shrink-0">
       <img 
@@ -36,35 +35,3 @@
     {{ end }}
   </div>
   {{ end }}
-
-  <!-- Projects Section Header -->
-  <h2 class="section-heading projects-title">Projects</h2>
-</div>
-{{ end }}
-
-<!-- Project List -->
-<div class="projects-container">
-  {{ range $paginator.Pages }}
-  <article class="project-card">
-    <a href="{{ .Permalink }}" class="project-card-link">
-      <h3 class="project-title">{{ .Title }}</h3>
-
-      {{ with .Params.description }}
-      <p class="project-description">{{ . }}</p>
-      {{ end }}
-    </a>
-
-    {{ with .Params.tags }}
-    <div class="project-tags flex flex-wrap gap-2">
-      {{ range . }}
-      <a href="{{ /tags/ | relLangURL }}{{ . | urlize }}" class="project-tag">
-        {{ . }}
-      </a>
-      {{ end }}
-    </div>
-    {{ end }}
-  </article>
-  {{ end }}
-</div>
-
-{{ end }}
