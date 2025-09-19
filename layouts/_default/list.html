@@ -15,6 +15,7 @@
   {{ $avatar_url := $.Scratch.Get "avatar_url" }}
   {{ if or $avatar_url site.Params.name }}
   <div class="mb-6 flex items-center">
+
     {{ if $avatar_url }}
     <div class="ltr:-ml-1 rtl:-mr-1 ltr:mr-5 rtl:ml-5 h-24 w-24 shrink-0">
       <img 
